@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import config
 from datetime import datetime, timedelta
-
+#bang 
 class Database:
     def __init__(self):
         self.client = MongoClient(config.MONGODB_URI)
