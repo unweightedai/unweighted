@@ -4,7 +4,7 @@ from solana.rpc.async_api import AsyncClient
 
 load_dotenv()
 
-# API Keys
+# API Keys etc
 TWITTER_API_KEY = os.getenv('TWITTER_API_KEY')
 TWITTER_API_SECRET = os.getenv('TWITTER_API_SECRET')
 TWITTER_ACCESS_TOKEN = os.getenv('TWITTER_ACCESS_TOKEN')
